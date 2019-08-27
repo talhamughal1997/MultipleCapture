@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/cPreview">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnCam"
+            android:src="@drawable/ic_camera"/>
+
+        <ImageView
+            android:layout_margin="40dp"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnSwitch"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_frontt"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="bottom|end"
+            android:textSize="15sp"
+            android:text="Switch Camera"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
